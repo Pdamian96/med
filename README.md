@@ -5,8 +5,11 @@ Note that my code is VERY messy and will only clean it up once im really done wi
 
 Currently adds:
 3 New Attacks for the Enderdragon
+
 API for Motion
+
 API for enchantments (But selfmade so its doodoo)
+
 1 Enchantment
  - Double jump
  
