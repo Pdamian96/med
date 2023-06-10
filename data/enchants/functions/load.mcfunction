@@ -31,3 +31,4 @@ say funny reload
 #function clocks
 function ed:30tclock
 function ed:60tclock
+function ed:100tclock
