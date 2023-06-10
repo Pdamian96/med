@@ -1,0 +1,6 @@
+
+execute as @e[type=ender_dragon] run execute at @s unless entity @s[nbt={DragonPhase:5}] unless entity @s[nbt={DragonPhase:6}] run summon wither_skeleton ~ ~10 ~ {CanPickUpLoot:0b,HandItems:[{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"Enderbow","color":"light_purple","bold":true}'},Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:power",lvl:5s},{id:"minecraft:infinity",lvl:1s},{id:"minecraft:mending",lvl:1s}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:vanishing_curse",lvl:1s}]}},{id:"minecraft:netherite_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:vanishing_curse",lvl:1s}]}},{id:"minecraft:netherite_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:vanishing_curse",lvl:1s}]}},{id:"minecraft:netherite_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:vanishing_curse",lvl:1s}]}}],ActiveEffects:[{Id:28,Amplifier:9b,Duration:300}]}
+
+
+
+schedule function ed:withersk_s1 300t
