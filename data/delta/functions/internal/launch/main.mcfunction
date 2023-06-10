@@ -17,7 +17,6 @@ execute rotated as d59ee2c6-58c8-4885-b9db-ecff066e4439 run function delta:inter
 scoreboard players set $function_called delta.internal.dummy 0
 tag @s remove delta.launch
 
-stopsound @a * entity.generic.explode
 
 #Reset scoreboards
 scoreboard players reset @s delta.internal.x
