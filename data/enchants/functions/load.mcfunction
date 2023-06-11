@@ -15,6 +15,7 @@ scoreboard objectives add timer dummy
 scoreboard objectives add timer_a dummy
 scoreboard objectives add db_life dummy
 scoreboard objectives add cooldown dummy
+scoreboard objectives add lights dummy
 
 #set funny numbers
 scoreboard players set 100 numbers 100
@@ -23,9 +24,11 @@ scoreboard players set 10 numbers 10
 scoreboard players set 20 numbers 20
 scoreboard players set 2000 numbers 2000
 scoreboard players set 20 range 20
+scoreboard players set 5 range 5
 scoreboard players set 2000 range 2000
 scoreboard players set 400 numbers 400
 scoreboard players set 2 numbers 2
+scoreboard players set 3 numbers 3
 say funny reload
 
 #function clocks

@@ -12,3 +12,4 @@ execute if score @e[type=ender_dragon,limit=1] timer_a matches 60.. if data stor
 #execute as @e[type=dragon_fireball] run execute store result entity @s Motion[1] double 0.004 run scoreboard players get @s pos
 ##execute as @e[type=dragon_fireball] run execute store result entity @s Motion[2] double 0.004 run scoreboard players get @s pos
 
+function ed:tick
